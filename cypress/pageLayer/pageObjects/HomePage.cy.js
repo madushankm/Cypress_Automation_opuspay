@@ -39,6 +39,10 @@ class HomePage{
     assertAddeditems(){
         cy.contains('Sauce Labs Backpack').should('be.visible');
     }
+
+    testMethod(){
+        
+    }
 }
 
 export default HomePage;
